@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="မူလစာမ်က္ႏွာ" />
+        <item
+            android:id="@+id/nav_luhmu_team"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="လူမွုကူညီေရးအသင္းမ်ား" />
+        <item
+            android:id="@+id/nav_nar_team"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="နာေရးကူညီမွုအသင္းမ်ား" />
+        <item
+            android:id="@+id/nav_animal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="တိရစွ်ာန္ေဂဟာမ်ား" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="အေျကာင္းအရာ" />
+
+    </group>
+
+
+
+</menu>

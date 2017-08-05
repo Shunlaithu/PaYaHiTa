@@ -1,0 +1,51 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:orientation="vertical"
+    tools:context="com.smarthair.forever.payahita.MainFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ViewFlipper
+            android:id="@+id/flip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/b1" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/b2" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/b3" />
+
+
+
+
+        </ViewFlipper>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

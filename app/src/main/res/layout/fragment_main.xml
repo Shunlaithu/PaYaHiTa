@@ -1,0 +1,97 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:orientation="vertical"
+    tools:context="com.smarthair.forever.payahita.MainFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ViewFlipper
+        android:id="@+id/flip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fp1" />
+
+        <ImageView
+        android:layout_width="370dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fp2" />
+
+        <ImageView
+        android:layout_width="370dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fp3" />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fp4" />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fp5" />
+
+
+</ViewFlipper>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*No One Has Ever Become Poor From Giving*"
+        android:textSize="18dp"
+        android:textColor="#29B6F6"
+        android:paddingTop="60dp"
+        android:textStyle="bold"
+        android:textColorHighlight="#29B6F6"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*May your charity increase as much as your wealth*"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#29B6F6"
+        android:paddingTop="30dp"
+        android:textColorHighlight="#29B6F6"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*He who wished to secure the good of others,Has already secured his own*"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#29B6F6"
+        android:paddingTop="30dp"
+        android:textColorHighlight="#29B6F6"
+
+        />
+
+
+</LinearLayout>
+
+
+
+</ScrollView>
