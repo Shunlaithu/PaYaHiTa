@@ -18,7 +18,16 @@
         <item
             android:id="@+id/nav_animal"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="တိရစွ်ာန္ေဂဟာမ်ား" />
+            android:title="တိရစၧာန္ေစာင့္ေရွာက္ေရးေဂဟာမ်ား" />
+
+        <item
+            android:id="@+id/nav_ph"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ပရဟိတအသင္းမ်ား၏ ဖုန္းနံပါတ္မ်ား" />
+        <item
+            android:id="@+id/nav_regi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ပရဟိတအဖြဲ႕အစည္းမ်ား" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_manage"

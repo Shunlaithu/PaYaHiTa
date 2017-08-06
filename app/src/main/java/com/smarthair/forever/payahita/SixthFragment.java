@@ -18,9 +18,13 @@ import android.widget.ViewFlipper;
 
 import com.smarthair.forever.payahita.adapters.AniAdapter;
 import com.smarthair.forever.payahita.adapters.NarAdapter;
+import com.smarthair.forever.payahita.adapters.OrganAdapter;
+import com.smarthair.forever.payahita.adapters.PhoneAdapter;
 import com.smarthair.forever.payahita.adapters.SchoolAdapter;
 import com.smarthair.forever.payahita.models.AniModel;
 import com.smarthair.forever.payahita.models.NarModel;
+import com.smarthair.forever.payahita.models.OrganModel;
+import com.smarthair.forever.payahita.models.PhoneModel;
 import com.smarthair.forever.payahita.models.SchoolModel;
 
 import java.util.ArrayList;
@@ -31,17 +35,16 @@ import java.util.StringTokenizer;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ThirdFragment extends Fragment {
+public class SixthFragment extends Fragment {
 
-    private ViewFlipper fp ;
     private RecyclerView mRecyclerView;
-    private AniAdapter adapter;
-    private List<AniModel> modelList;
+    private OrganAdapter adapter;
+    private List<OrganModel> modelList;
     private String ph_no=null;
     private static final int MY_PERMISSIONS_REQUEST_CALL_PHONE = 100;
 
 
-    public ThirdFragment() {
+    public SixthFragment() {
         // Required empty public constructor
     }
 
@@ -50,25 +53,20 @@ public class ThirdFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_third, container, false);
+        View view = inflater.inflate(R.layout.fragment_sixth, container, false);
 
-        fp = (ViewFlipper)view.findViewById(R.id.flip);
-        fp.startFlipping();
-        fp.setAutoStart(true);
-        fp.setFlipInterval(3000);
-        fp.setInAnimation(getActivity(),android.R.anim.slide_in_left);
-        fp.setOutAnimation(getActivity(),android.R.anim.slide_out_right);
 
-        mRecyclerView = (RecyclerView) view.findViewById(R.id.rv_ani);
+
+        mRecyclerView = (RecyclerView) view.findViewById(R.id.rv_regi);
         modelList = new ArrayList<>();
-        adapter = new AniAdapter(modelList);
+        adapter = new OrganAdapter(modelList);
         RecyclerView.LayoutManager manager = new LinearLayoutManager(getContext());
         mRecyclerView.setLayoutManager(manager);
 
-        AniAdapter.OnItemClickListener onItemClickListener = new AniAdapter.OnItemClickListener() {
+        OrganAdapter.OnItemClickListener onItemClickListener = new OrganAdapter.OnItemClickListener() {
 
             public void onItemClick(View view, int postition) {
-                String[] phone = getResources().getStringArray(R.array.ani_ph);
+                String[] phone = getResources().getStringArray(R.array.ph_ph);
                 StringTokenizer stringTokenizer = new StringTokenizer(phone[postition],",");
                 String call_phone = stringTokenizer.nextToken();
                 makeCall(call_phone);
@@ -83,13 +81,12 @@ public class ThirdFragment extends Fragment {
     }
 
     private void setdata() {
-        String[] name =getResources().getStringArray(R.array.ani_name);
-        String[] location = getResources().getStringArray(R.array.ani_location);
-        String[] phone = getResources().getStringArray(R.array.ani_ph);
+        String[] name =getResources().getStringArray(R.array.organ_name);
 
-        AniModel model;
+
+        OrganModel model;
         for (int i=0;i<name.length;i++){
-            model = new AniModel(name[i],location[i],phone[i]);
+            model = new OrganModel(name[i]);
             modelList.add(model);
         }
     }

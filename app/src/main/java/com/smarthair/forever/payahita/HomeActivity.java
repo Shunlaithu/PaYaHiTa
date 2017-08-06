@@ -80,6 +80,10 @@ public class HomeActivity extends AppCompatActivity
             goToFragment(new SecondFragment());
         } else if (id == R.id.nav_animal) {
             goToFragment(new ThirdFragment());
+        } else if (id == R.id.nav_ph) {
+            goToFragment(new FifthFragment());
+        } else if (id == R.id.nav_regi) {
+            goToFragment(new SixthFragment());
         } else if (id == R.id.nav_about) {
             goToFragment(new FourthFragment());
         }

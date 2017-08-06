@@ -1,13 +1,150 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.smarthair.forever.payahita.FourthFragment">
+    android:columnCount="1"
+    android:orientation="vertical"
+    tools:context="com.smarthair.forever.payahita.MainFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:text="Version 1.0.0"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:textColor="#29B6F6"
+           android:text="ကြ်န္မတို့ ပရဟိတ Application သည္ အလွဴအတန္းလုပ္ခ်င္ေသာ္လည္း လွဴရန္ေနရာကို အလြယ္တကူ ေရြးခ်ယ္ရခက္ေနသူမ်ားအတြက္ အလွဴအတန္းလုပ္လို့ရတဲ့ ေနရာမ်ားကို လမ္းညႊန္ေပးထားပါတယ္။
+ပရဟိတ Application ကို အသံုးျပဳ၍ အလွဴအတန္းမ်ားကို မ်ားစြာ ေဆာင္ရြက္ႏိုင္ျကပါေစ။ ။"
+/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#29B6F6"
+            android:paddingTop="30dp"
+            android:textColorHighlight="#29B6F6"
+            android:text="''Forever Team''"
+         />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#29B6F6"
+            android:textColorHighlight="#29B6F6"
+            android:text="-----------------"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:textColor="#29B6F6"
+            android:textColorHighlight="#29B6F6"
+            android:text="Yun Yati Myat Noe (3CS-33)"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:textStyle="italic"
+            android:textColor="#493c3c"
+            android:textColorHighlight="#29B6F6"
+            android:text="yunyatimyatnoe.29@gmail.com"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:paddingTop="11dp"
+            android:textColor="#29B6F6"
+            android:textColorHighlight="#29B6F6"
+            android:text="Saw Thandar (3CS-41)"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:textStyle="italic"
+            android:textColor="#493c3c"
+            android:textColorHighlight="#29B6F6"
+            android:text="bamboogreenlay@gmail.com"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:paddingTop="11dp"
+            android:textColor="#29B6F6"
+            android:textColorHighlight="#29B6F6"
+            android:text="Htet Eaindray Hlaing (3CS-65)"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:textStyle="italic"
+            android:textColor="#493c3c"
+            android:textColorHighlight="#29B6F6"
+            android:text="hteteaindrayhlaing.ucsy@gmail.com"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:paddingTop="11dp"
+            android:textColor="#29B6F6"
+            android:textColorHighlight="#29B6F6"
+            android:text="Shun Lai Thu (3CS-182)"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:textStyle="italic"
+            android:textColor="#493c3c"
+            android:textColorHighlight="#29B6F6"
+            android:text="shunlaethu18@gmail.com"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

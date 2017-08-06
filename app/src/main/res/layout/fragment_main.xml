@@ -52,42 +52,125 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="*No One Has Ever Become Poor From Giving*"
+        android:text="ပရဟိတဆိုတာဘာလဲ?"
         android:textSize="18dp"
-        android:textColor="#29B6F6"
         android:paddingTop="60dp"
-        android:textStyle="bold"
-        android:textColorHighlight="#29B6F6"
+/>
 
 
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ပရဟိတဆိုတာ"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
 
-    <TextView
+
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="*May your charity increase as much as your wealth*"
+        android:text="ပရ-သူတစ္ပါး၊ဟိတ-အက်ိဳး၊"
         android:textSize="18dp"
-        android:textStyle="bold"
-        android:textColor="#29B6F6"
-        android:paddingTop="30dp"
-        android:textColorHighlight="#29B6F6"
-
+        android:paddingTop="13dp"
         />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ပရဟိတ-သူတစ္ပါးအက်ိဳး။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ပရဟိတ ဆိုတာသူတစ္ပါးအက်ိဳးကိုေဆာင္ရြက္ရင္းကိုယ္က်ိဳးလည္းျပီးတဲ႔အင္မတန္မြန္ျမတ္ေသာအလုပ္တစ္ခုျဖစ္တယ္။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ပရဟိတစိတ္ဓာတ္"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
 
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="*He who wished to secure the good of others,Has already secured his own*"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:textColor="#29B6F6"
-        android:paddingTop="30dp"
-        android:textColorHighlight="#29B6F6"
 
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(၁)သာသနာကိုၾကည္ညိဳျမတ္နိုးယံုႀကည္ေသာသဒၵါအား"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ထက္သန္ရမည္။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(၂)အမ်ားအက်ိဳးအတြက္ဆႏၵျပင္းျပရမည္။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(၃)ေဒါသမႀကီးရ။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(၄)စိတ္ရွည္၊သည္းခံနိုင္ရမည္။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(၅)လူသားမ်ားကိုေမတၱာဓာတ္ျဖင့္ႀကည့္နိုင္ေအာင္"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ႀကိဳးစားရမည္။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(၆)မိမိလုပ္တာသာလ်ွင္အမွန္ဟုမျဖစ္ေစရ။"
+            android:textSize="18dp"
+            android:paddingTop="13dp"
+            />
+
+
+
+
 
 
 </LinearLayout>

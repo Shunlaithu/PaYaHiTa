@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_nar_name"
+            android:text="ကေလးျပဳစုေရးေဂဟာ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="တည္ေနရာ။ ။ "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_nar_location"
+                android:text="Hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="ဖုန္း -"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_nar_ph"
+                android:text="Hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
